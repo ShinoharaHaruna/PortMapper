@@ -1,5 +1,9 @@
 # PortMapper
 
+>   [中文文档](README_zh.md)
+
+**What era is this? Still worrying about which port to deploy the project on?**
+
 This Python script maps a given string to a port number within a specified threshold. It calculates the total ASCII value of the input string, performs a modulo operation with 65535, and adjusts the result to ensure it is greater than the threshold value.
 
 ## Usage
